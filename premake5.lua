@@ -5,7 +5,8 @@ workspace "ForgeCraft"
     configurations
     {
         "Debug",
-        "Release"
+        "Release",
+        "Dist"
     }
 
 output_directory = "%{cfg.buildcfg}=%{cfg.system}-%{cfg.architecture}"
@@ -41,8 +42,7 @@ output_directory = "%{cfg.buildcfg}=%{cfg.system}-%{cfg.architecture}"
             "external",
             "Engine/include",
             "external/VulkanWrapper/include",
-            "external/VkMemAlloc",
-            "external/imgui"
+            "external/VkMemAlloc"
         }
         links
         {
