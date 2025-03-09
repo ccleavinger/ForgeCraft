@@ -1,6 +1,6 @@
 # ForgeCraft
 
-Directly inspired by the source code for a similar voxel game described in these blog posts: https://vazgriz.com/189/creating-minecraft-in-one-week-with-c-and-vulkan/
+Directly inspired by the source code for a similar voxel engine described in these blog posts: https://vazgriz.com/189/creating-minecraft-in-one-week-with-c-and-vulkan/
 
 ## Dependencies
 
