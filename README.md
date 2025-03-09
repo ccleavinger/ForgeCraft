@@ -1,6 +1,6 @@
-# VoxelGame
+# ForgeCraft
 
-Source code for the game described in these blog posts: https://vazgriz.com/189/creating-minecraft-in-one-week-with-c-and-vulkan/
+Directly inspired by the source code for a similar voxel game described in these blog posts: https://vazgriz.com/189/creating-minecraft-in-one-week-with-c-and-vulkan/
 
 ## Dependencies
 
@@ -12,13 +12,13 @@ glslc.exe (part of LunarG Vulkan SDK)
 
 [GLFW](https://github.com/glfw/glfw) 3.2 or higher, built for static linking
 
-[VulkanWrapper](https://github.com/vazgriz/VulkanWrapper) (This is my own handwritten Vulkan wrapper)
+[VulkanWrapper](https://github.com/vazgriz/VulkanWrapper) (This is vazgriz's own handwritten Vulkan wrapper)
 
 [Vulkan Memory Allocator](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator) 2.3.0
 
 [OpenGL Mathematics \(GLM\)](https://github.com/g-truc/glm) 0.9.9.7
 
-[EnTT](https://github.com/skypjack/entt) 3.2.2
+[EnTT](https://github.com/skypjack/entt) latest available version
 
 [STB](https://github.com/nothings/stb) for stb_image.h
 
@@ -26,19 +26,6 @@ glslc.exe (part of LunarG Vulkan SDK)
 
 ## Build Instructions
 
-This project uses CMake as it's build system.
-There are multiple CMake variables that must be set for this project to build properly.
+This project uses premake as it's build system to ease development!
 
-Variable | Description
------------- | -------------
-GLFW_ROOT | Root folder of GLFW
-GLFW_BUILD | Folder of GLFW binaries
-VULKAN_ROOT | Root folder of Vulkan SDK (ie C:/VulkanSDK/1.2.135.0)
-GLSL_COMPILER | Path to glslc.exe
-VKW_ROOT | Root folder of VulkanWrapper
-VKW_BUILD | Folder of VulkanWrapper binaries
-VMA_INCLUDE | Source folder of Vulkan Memory Allocator (ie .../VulkanMemoryAllocator/src)
-GLM_INCLUDE | Root folder of GLM
-ENTT_INCLUDE | Source folder of EnTT (ie .../entt/src)
-STB_INCLUDE | Root folder of STB
-FASTNOISE_ROOT | Root folder of FastNoise
+Note: This is an abandoned project largely based off of someone else's work I did while bored in CS A. If you're curious about how some of this works I am too. Feel free to fork and mess around with it though!
