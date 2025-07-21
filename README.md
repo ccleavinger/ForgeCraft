@@ -1,13 +1,12 @@
 # ForgeCraft
 
-Directly inspired by the source code for a similar voxel engine described in these blog posts: ~~https://vazgriz.com/189/creating-minecraft-in-one-week-with-c-and-vulkan/~~ 
+Directly inspired by the source code for a similar voxel engine described in these blog posts: ~~https://vazgriz.com/189/creating-minecraft-in-one-week-with-c-and-vulkan/~~.
+
 For some reason these posts are now offline so my version appears to be all that remains.
 
-Dependencies
+## Dependencies
 
-Vulkan 1.2
-
-[LunarG Vulkan SDK](https://www.lunarg.com/vulkan-sdk/) for Vulkan 1.2 (or greater)
+[LunarG Vulkan SDK](https://www.lunarg.com/vulkan-sdk/) for Vulkan
 
 glslc.exe (part of LunarG Vulkan SDK)
 
