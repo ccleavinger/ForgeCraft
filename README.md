@@ -6,7 +6,7 @@ Directly inspired by the source code for a similar voxel engine described in the
 
 Vulkan 1.2
 
-[LunarG Vulkan SDK](https://www.lunarg.com/vulkan-sdk/) for Vulkan 1.2
+[LunarG Vulkan SDK](https://www.lunarg.com/vulkan-sdk/) for Vulkan 1.2 (or greater)
 
 glslc.exe (part of LunarG Vulkan SDK)
 
